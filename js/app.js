@@ -1,4 +1,8 @@
 //get variables
+window.onload = function() {
+  loaded();
+};
+
 
 var myVar;
 
