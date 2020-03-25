@@ -1,6 +1,15 @@
 //get variables
 
+var myVar;
 
+function loaded() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  $("#loader").hide();
+  $("#container").show();
+}
     
 $(document).ready(function(){
 
